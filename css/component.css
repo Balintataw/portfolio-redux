@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 40em) {
 	/* don't show a background if on mobile */
-	.tabsnav {
+	/* .tabsnav {
 		background: none;
-	}
+	} */
 }

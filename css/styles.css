@@ -39,21 +39,21 @@ a:focus {
 	fill: currentColor;
 }
 
-.view {
+/* .view {
 	position: relative;
 	display: flex;
 	justify-content: flex-end;
 	overflow: hidden;
 	height: 100vh;
 	margin: 0 0 0 215px;
-}
+} */
 
 .content {
 	z-index: 1;
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	height: 100%;
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* width: 100%; */
+	/* height: 100%; */
 	padding: 25px 50px;
 }
 
@@ -255,8 +255,18 @@ a:focus {
 }
 
 #attach__image {
-	opacity: 0.5;   /* make transparent */
+	border-radius: 25px;
+	border: 5px solid #ff764b;
 	width: 25vw;
+}
+
+.about__the__dev {
+	position: absolute;
+	top: 35em;
+	left: 2em;
+	width: 80%;
+	color: #fff;
+	line-height: 1.5rem;
 }
 
 .column {
@@ -276,7 +286,7 @@ a:focus {
 
 .column_text_link {
 	text-decoration: none;
-	color: #fff4d7
+	color: #fff4d7;
 }
 
 /* Individual verbs */
@@ -293,9 +303,9 @@ a:focus {
 	/* background-image: url(../img/bg_yellow.jpg); */
 }
 
-.main::before {
+.view::before {
 	content: '';
-	background-image: url(../img/459703544.jpg);
+	background-image: url(../img/vegas.jpg);
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	opacity: 0.2;
@@ -309,14 +319,15 @@ a:focus {
 
 .main .content::after {
 	content: "";
-	background: url(../img/bg_yellow.jpg);
+	/* background-color: #fff4d7; */
+	/* background: url(../img/bg_yellow.jpg); */
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	opacity: 1;
 	top: 0;
 	left: 20px;
 	bottom: 0;
-	right: 0;
+	right: 300px;
 	position: absolute;
 	z-index: -1;   
 }
@@ -363,6 +374,18 @@ a:focus {
 	color: #fff;
 }
 
+@media screen and (max-width: 900px) {
+	.portfolio-header__title {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.portfolio-header__title {
+		font-size: 3em;
+	}
+}
+
 @media screen and (max-width: 40em) {
 	.view {
 		overflow: auto;
@@ -390,7 +413,7 @@ a:focus {
 		font-size: 1.25em;
 	}
 	.portfolio-header__title {
-		font-size: 5.5em;
+		font-size: 1.5em;
 		margin: 0 -4px;
 	}
 	.portfolio-header__tagline {
@@ -438,19 +461,4 @@ a:focus {
 	.column__title {
 		margin: 1em 0 0;
 	}
-	/* .demo-3 .portfolio-header__title {
-		font-size: 2em;
-		margin: 0;
-	}
-	.demo-3 .portfolio-header__tagline {
-		font-size: 1em;
-		margin-left: 0;
-	}
-	.demo-3 .portfolio-header::after {
-		font-size: 3em;
-		left: 10px;
-	}
-	.demo-3 .portfolio-header__deco {
-		font-size: 0.85em;
-	} */
 }
