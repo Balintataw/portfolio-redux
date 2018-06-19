@@ -58,7 +58,7 @@
 
 /* Individual menu styles (Basque names) */
 
-/* Ander */
+/* Ander
 .tabsnav--ander {
 	left: 45px;
 }
@@ -73,7 +73,7 @@
 
 .tabsnav--ander .tabsnav__item:not(:last-child) {
 	margin: 0 10px 0 0;
-}
+} */
 
 /* Zeru */
 .tabsnav--zeru {
@@ -97,7 +97,7 @@
 }
 
 /* Ibai */
-.tabsnav--ibai {
+/* .tabsnav--ibai {
 	top: 50%;
 	margin-top: -115px;
 }
@@ -116,7 +116,7 @@
 
 .tabsnav--ibai .tabsnav__item:not(:last-child) {
 	margin: 0 0 10px 0;
-}
+} */
 
 @media screen and (max-width: 40em) {
 	/* don't show a background if on mobile */
