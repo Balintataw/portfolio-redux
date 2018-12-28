@@ -1,21 +1,3 @@
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- *
- *
- * todos:
- * 		Need to fix extramovable elements animations. For example, need to fix the direction of the animation for the content element when it's on the left or under the tabs.
- *	  	Add animation settings for the toggle visibility function.
- *	    Count with scroll values in the calculations.
- *		Control the tite better so one could remove it from the page once open.
- *		...
- */
 ;(function(window) {
 
 	'use strict';
